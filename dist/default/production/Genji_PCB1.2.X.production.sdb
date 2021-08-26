@@ -1,0 +1,1719 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18326 ]
+[d frameptr 6 ]
+"42 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/drivers/spi_master.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"56
+[e E377 . `uc
+MASTER0 0
+]
+"78 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"1667 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[e E6679 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"190 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _initArrays initArrays `(v  1 e 1 0 ]
+"206
+[v _valfromGroup valfromGroup `(v  1 e 1 0 ]
+"301
+[v _val2group val2group `(v  1 e 1 0 ]
+[v i1_val2group val2group `(v  1 e 1 0 ]
+"397
+[v _mergeGroup1 mergeGroup1 `(uc  1 e 1 0 ]
+"409
+[v _mergeGroup2 mergeGroup2 `(uc  1 e 1 0 ]
+"421
+[v _mergeBridge1 mergeBridge1 `(uc  1 e 1 0 ]
+"431
+[v _mergeBridge2 mergeBridge2 `(uc  1 e 1 0 ]
+"441
+[v _merger merger `(v  1 e 1 0 ]
+"495
+[v _sendOrderX sendOrderX `(v  1 e 1 0 ]
+[v i1_sendOrderX sendOrderX `(v  1 e 1 0 ]
+"499
+[v _sendOrderXs sendOrderXs `(v  1 e 1 0 ]
+"507
+[v _dotStart dotStart `(v  1 e 1 0 ]
+"512
+[v _sendDotStar sendDotStar `(v  1 e 1 0 ]
+"518
+[v _sendDotStar2 sendDotStar2 `(v  1 e 1 0 ]
+"526
+[v _sendOrderDot sendOrderDot `(v  1 e 1 0 ]
+"578
+[v _rstShadow rstShadow `(v  1 e 1 0 ]
+[v i1_rstShadow rstShadow `(v  1 e 1 0 ]
+"585
+[v _despShadow despShadow `(v  1 e 1 0 ]
+"630
+[v _translateShadows translateShadows `(v  1 e 1 0 ]
+"693
+[v _crashOn2 crashOn2 `(v  1 e 1 0 ]
+"713
+[v _crashOff3 crashOff3 `(v  1 e 1 0 ]
+"724
+[v _dragonCrashTool dragonCrashTool `(v  1 e 1 0 ]
+[v i1_dragonCrashTool dragonCrashTool `(v  1 e 1 0 ]
+"742
+[v _rstDragon rstDragon `(v  1 e 1 0 ]
+[v i1_rstDragon rstDragon `(v  1 e 1 0 ]
+"756
+[v _dragonCrash dragonCrash `(v  1 e 1 0 ]
+"784
+[v _refriShoulderTool refriShoulderTool `(v  1 e 1 0 ]
+[v i1_refriShoulderTool refriShoulderTool `(v  1 e 1 0 ]
+"796
+[v _rstRefri rstRefri `(v  1 e 1 0 ]
+[v i1_rstRefri rstRefri `(v  1 e 1 0 ]
+"804
+[v _refriShoulder refriShoulder `(v  1 e 1 0 ]
+"831
+[v _rstMaskOn rstMaskOn `(v  1 e 1 0 ]
+[v i1_rstMaskOn rstMaskOn `(v  1 e 1 0 ]
+"837
+[v _maskOn maskOn `(v  1 e 1 0 ]
+"852
+[v _rstMaskOff rstMaskOff `(v  1 e 1 0 ]
+[v i1_rstMaskOff rstMaskOff `(v  1 e 1 0 ]
+"859
+[v _maskOff maskOff `(v  1 e 1 0 ]
+"987
+[v _rstDemoOn rstDemoOn `(v  1 e 1 0 ]
+[v i1_rstDemoOn rstDemoOn `(v  1 e 1 0 ]
+"992
+[v _demoEfectOn demoEfectOn `(v  1 e 1 0 ]
+"1014
+[v _rstMusik rstMusik `(v  1 e 1 0 ]
+[v i1_rstMusik rstMusik `(v  1 e 1 0 ]
+"1022
+[v _musik musik `(v  1 e 1 0 ]
+"1149
+[v _rstDemoOff rstDemoOff `(v  1 e 1 0 ]
+[v i1_rstDemoOff rstDemoOff `(v  1 e 1 0 ]
+"1154
+[v _demoEfectOff demoEfectOff `(v  1 e 1 0 ]
+"1179
+[v _seqByZone_On seqByZone_On `(v  1 e 1 0 ]
+"1187
+[v _seqByZone_Off seqByZone_Off `(v  1 e 1 0 ]
+"1195
+[v _rstPressOn rstPressOn `(v  1 e 1 0 ]
+[v i1_rstPressOn rstPressOn `(v  1 e 1 0 ]
+"1200
+[v _SeqPresOn SeqPresOn `(v  1 e 1 0 ]
+"1224
+[v _rstPressOff rstPressOff `(v  1 e 1 0 ]
+[v i1_rstPressOff rstPressOff `(v  1 e 1 0 ]
+"1229
+[v _SeqPresOff SeqPresOff `(v  1 e 1 0 ]
+"1250
+[v _seqApply seqApply `(v  1 e 1 0 ]
+"1288
+[v _applyColor applyColor `(v  1 e 1 0 ]
+[v i1_applyColor applyColor `(v  1 e 1 0 ]
+"1293
+[v _rstSeq rstSeq `(v  1 e 1 0 ]
+[v i1_rstSeq rstSeq `(v  1 e 1 0 ]
+"1299
+[v _allBodyVal allBodyVal `(v  1 e 1 0 ]
+[v i1_allBodyVal allBodyVal `(v  1 e 1 0 ]
+"1305
+[v _resetAndOff resetAndOff `(v  1 e 1 0 ]
+[v i1_resetAndOff resetAndOff `(v  1 e 1 0 ]
+"1336
+[v _execMask_Sword execMask_Sword `(v  1 e 1 0 ]
+"1348
+[v _initStop initStop `(v  1 e 1 0 ]
+"1365
+[v _protExec protExec `(v  1 e 1 0 ]
+"1387
+[v _protRCV protRCV `(v  1 e 1 0 ]
+"1405
+[v _secuences secuences `(v  1 e 1 0 ]
+"1443
+[v _pTMR2_ISR pTMR2_ISR `(v  1 e 1 0 ]
+"1451
+[v _pTMR1_ISR pTMR1_ISR `(v  1 e 1 0 ]
+"1470
+[v _pRC1_ISR pRC1_ISR `(v  1 e 1 0 ]
+"1507
+[v _IOC_DI1_ISR IOC_DI1_ISR `(v  1 e 1 0 ]
+"1514
+[v _IOC_AN1_ISR IOC_AN1_ISR `(v  1 e 1 0 ]
+"1521
+[v _IOC_AN2_ISR IOC_AN2_ISR `(v  1 e 1 0 ]
+"1528
+[v _changeDemoMode changeDemoMode `(v  1 e 1 0 ]
+[v i1_changeDemoMode changeDemoMode `(v  1 e 1 0 ]
+"1539
+[v _butt1Pres butt1Pres `(v  1 e 1 0 ]
+"1544
+[v _butt2Pres butt2Pres `(v  1 e 1 0 ]
+"1548
+[v _butt3Pres butt3Pres `(v  1 e 1 0 ]
+[v i1_butt3Pres butt3Pres `(v  1 e 1 0 ]
+"1567
+[v _putch putch `(v  1 e 1 0 ]
+[v i1_putch putch `(v  1 e 1 0 ]
+"1571
+[v _waitX0ms waitX0ms `(v  1 e 1 0 ]
+[v i1_waitX0ms waitX0ms `(v  1 e 1 0 ]
+"1664
+[v _main main `(v  1 e 1 0 ]
+"41 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+"83 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"162
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"173
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+"197
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+"207
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"209
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"217
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"221
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"225
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"229
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"234
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+"52 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"63
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"81
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"87
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"59 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"145
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"167
+[v _IOCCF1_ISR IOCCF1_ISR `(v  1 e 1 0 ]
+"182
+[v _IOCCF1_SetInterruptHandler IOCCF1_SetInterruptHandler `(v  1 e 1 0 ]
+"189
+[v _IOCCF1_DefaultInterruptHandler IOCCF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"197
+[v _IOCCF2_ISR IOCCF2_ISR `(v  1 e 1 0 ]
+"212
+[v _IOCCF2_SetInterruptHandler IOCCF2_SetInterruptHandler `(v  1 e 1 0 ]
+"219
+[v _IOCCF2_DefaultInterruptHandler IOCCF2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"227
+[v _IOCCF3_ISR IOCCF3_ISR `(v  1 e 1 0 ]
+"242
+[v _IOCCF3_SetInterruptHandler IOCCF3_SetInterruptHandler `(v  1 e 1 0 ]
+"249
+[v _IOCCF3_DefaultInterruptHandler IOCCF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+"78
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+"93
+[v _SPI2_Close SPI2_Close `(v  1 e 1 0 ]
+"98
+[v _SPI2_ExchangeByte SPI2_ExchangeByte `(uc  1 e 1 0 ]
+"106
+[v _SPI2_ExchangeBlock SPI2_ExchangeBlock `(v  1 e 1 0 ]
+"119
+[v _SPI2_WriteBlock SPI2_WriteBlock `(v  1 e 1 0 ]
+"128
+[v _SPI2_ReadBlock SPI2_ReadBlock `(v  1 e 1 0 ]
+"137
+[v _SPI2_WriteByte SPI2_WriteByte `(v  1 e 1 0 ]
+"142
+[v _SPI2_ReadByte SPI2_ReadByte `(uc  1 e 1 0 ]
+"64 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"157
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"171
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"175
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"119
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"132
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+"136
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S393 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8\pic\include\proc\pic16f18326.h
+[u S398 . 1 `S393 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES398  1 e 1 @11 ]
+[s S1116 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"450
+[u S1123 . 1 `S1116 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1123  1 e 1 @14 ]
+[s S379 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"498
+[u S384 . 1 `S379 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES384  1 e 1 @16 ]
+[s S427 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"535
+[u S436 . 1 `S427 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES436  1 e 1 @17 ]
+[s S748 . 1 `uc 1 NCO1IF 1 0 :1:0 
+`uc 1 TMR4IF 1 0 :1:1 
+`uc 1 BCL2IF 1 0 :1:2 
+`uc 1 SSP2IF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 TMR6IF 1 0 :1:7 
+]
+"597
+[u S757 . 1 `S748 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES757  1 e 1 @18 ]
+"1207
+[v _TMR1L TMR1L `VEuc  1 e 1 @25 ]
+"1227
+[v _TMR1H TMR1H `VEuc  1 e 1 @26 ]
+"1247
+[v _T1CON T1CON `VEuc  1 e 1 @27 ]
+[s S940 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1SOSC 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"1269
+[s S947 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S953 . 1 `S940 1 . 1 0 `S947 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES953  1 e 1 @27 ]
+"1319
+[v _T1GCON T1GCON `VEuc  1 e 1 @28 ]
+[s S970 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"1339
+[s S978 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S981 . 1 `S970 1 . 1 0 `S978 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES981  1 e 1 @28 ]
+"1389
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1409
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1429
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S852 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1450
+[s S856 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S864 . 1 `S852 1 . 1 0 `S856 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES864  1 e 1 @31 ]
+"1500
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S700 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1515
+[u S707 . 1 `S700 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES707  1 e 1 @140 ]
+"1545
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S242 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1608
+[u S247 . 1 `S242 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES247  1 e 1 @144 ]
+[s S406 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1645
+[u S415 . 1 `S406 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES415  1 e 1 @145 ]
+"1876
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2192
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2237
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2780
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2825
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2896
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"2950
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3011
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3081
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3135
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S592 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3161
+[u S601 . 1 `S592 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES601  1 e 1 @413 ]
+"3315
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S570 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3341
+[u S579 . 1 `S570 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES579  1 e 1 @414 ]
+"3495
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"3741
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3791
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5239
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @537 ]
+"5367
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @538 ]
+"5623
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @540 ]
+"5685
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @541 ]
+[s S717 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5710
+[s S723 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S728 . 1 `S717 1 . 1 0 `S723 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES728  1 e 1 @541 ]
+"5823
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @542 ]
+"5947
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5992
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6446
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6491
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6857
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6907
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+[s S195 . 1 `uc 1 IOCCP0 1 0 :1:0 
+`uc 1 IOCCP1 1 0 :1:1 
+`uc 1 IOCCP2 1 0 :1:2 
+`uc 1 IOCCP3 1 0 :1:3 
+`uc 1 IOCCP4 1 0 :1:4 
+`uc 1 IOCCP5 1 0 :1:5 
+]
+"7122
+[u S202 . 1 `S195 1 . 1 0 ]
+[v _IOCCPbits IOCCPbits `VES202  1 e 1 @919 ]
+[s S178 . 1 `uc 1 IOCCN0 1 0 :1:0 
+`uc 1 IOCCN1 1 0 :1:1 
+`uc 1 IOCCN2 1 0 :1:2 
+`uc 1 IOCCN3 1 0 :1:3 
+`uc 1 IOCCN4 1 0 :1:4 
+`uc 1 IOCCN5 1 0 :1:5 
+]
+"7172
+[u S185 . 1 `S178 1 . 1 0 ]
+[v _IOCCNbits IOCCNbits `VES185  1 e 1 @920 ]
+[s S161 . 1 `uc 1 IOCCF0 1 0 :1:0 
+`uc 1 IOCCF1 1 0 :1:1 
+`uc 1 IOCCF2 1 0 :1:2 
+`uc 1 IOCCF3 1 0 :1:3 
+`uc 1 IOCCF4 1 0 :1:4 
+`uc 1 IOCCF5 1 0 :1:5 
+]
+"7222
+[u S168 . 1 `S161 1 . 1 0 ]
+[v _IOCCFbits IOCCFbits `VES168  1 e 1 @921 ]
+"11576
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"11621
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"11683
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"11723
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"11785
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"11819
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"11928
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12068
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12165
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12211
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12269
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"13011
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @3613 ]
+"13063
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @3614 ]
+"13323
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"13871
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @3732 ]
+"13923
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @3733 ]
+"14183
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3748 ]
+"21287
+[v _PLLR PLLR `VEb  1 e 0 @18656 ]
+"46 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _waitingTime waitingTime `uc  1 e 1 0 ]
+"47
+[v _waiter waiter `uc  1 e 1 0 ]
+"48
+[v _tick tick `uc  1 e 1 0 ]
+"49
+[v _DemoSwitchChange DemoSwitchChange `uc  1 e 1 0 ]
+"50
+[v _modoPress_nDemo modoPress_nDemo `uc  1 e 1 0 ]
+"51
+[v _SeqVals SeqVals `[6]s  1 e 12 0 ]
+"52
+[v _soundASOn soundASOn `uc  1 e 1 0 ]
+"53
+[v _soundASOff soundASOff `uc  1 e 1 0 ]
+"54
+[v _run run `uc  1 e 1 0 ]
+"55
+[v _lightsOn lightsOn `uc  1 e 1 0 ]
+"56
+[v _fullBodyVal fullBodyVal `s  1 e 2 0 ]
+"58
+[v _flagPressOn flagPressOn `uc  1 e 1 0 ]
+"59
+[v _timPresOn timPresOn `us  1 e 2 0 ]
+"61
+[v _flagPressOff flagPressOff `uc  1 e 1 0 ]
+"62
+[v _timPresOff timPresOff `us  1 e 2 0 ]
+"64
+[v _flagDemoOn flagDemoOn `uc  1 e 1 0 ]
+"65
+[v _timDemoOn timDemoOn `us  1 e 2 0 ]
+"67
+[v _flagDemoOff flagDemoOff `uc  1 e 1 0 ]
+"68
+[v _timDemoOff timDemoOff `us  1 e 2 0 ]
+"70
+[v _maskIsOn maskIsOn `uc  1 e 1 0 ]
+"71
+[v _runMaskOn runMaskOn `uc  1 e 1 0 ]
+"72
+[v _indexMaskOn indexMaskOn `us  1 e 2 0 ]
+"73
+[v _contTimMaskOn contTimMaskOn `us  1 e 2 0 ]
+"74
+[v _seqMaskOn seqMaskOn `[10]uc  1 e 10 0 ]
+"75
+[v _MaskSeq MaskSeq `[12]s  1 e 24 0 ]
+"77
+[v _runMaskOff runMaskOff `uc  1 e 1 0 ]
+"78
+[v _indexMaskOff indexMaskOff `uc  1 e 1 0 ]
+"79
+[v _contTimMaskOff contTimMaskOff `us  1 e 2 0 ]
+"80
+[v _subContMaskOff subContMaskOff `uc  1 e 1 0 ]
+"82
+[v _runShadow runShadow `uc  1 e 1 0 ]
+"83
+[v _indexShadow indexShadow `uc  1 e 1 0 ]
+"84
+[v _contTimShadow contTimShadow `us  1 e 2 0 ]
+"85
+[v _subContShadow subContShadow `uc  1 e 1 0 ]
+"86
+[v _shadowArray shadowArray `[21]s  1 e 42 0 ]
+"88
+[v _runCrash runCrash `uc  1 e 1 0 ]
+"89
+[v _indexCrash indexCrash `uc  1 e 1 0 ]
+"90
+[v _contCrash contCrash `us  1 e 2 0 ]
+"91
+[v _subContCrash subContCrash `uc  1 e 1 0 ]
+"94
+[v _intensityCrash intensityCrash `s  1 e 2 0 ]
+"95
+[v _intensityCrash2 intensityCrash2 `s  1 e 2 0 ]
+"96
+[v _dragonArray dragonArray `[15]uc  1 e 15 0 ]
+"97
+[v _intensityArray intensityArray `[15]uc  1 e 15 0 ]
+"98
+[v _dragonCrashDone dragonCrashDone `uc  1 e 1 0 ]
+"100
+[v _runRefri runRefri `uc  1 e 1 0 ]
+"101
+[v _intensityRefri intensityRefri `uc  1 e 1 0 ]
+"102
+[v _indexRefri indexRefri `uc  1 e 1 0 ]
+"103
+[v _contRefri contRefri `us  1 e 2 0 ]
+"104
+[v _refriShoulderDone refriShoulderDone `uc  1 e 1 0 ]
+"106
+[v _musikRun musikRun `uc  1 e 1 0 ]
+"107
+[v _valTempo valTempo `s  1 e 2 0 ]
+"108
+[v _valBip1 valBip1 `s  1 e 2 0 ]
+"109
+[v _valBip2 valBip2 `s  1 e 2 0 ]
+"110
+[v _stepsNote stepsNote `uc  1 e 1 0 ]
+"111
+[v _noteOnTempo noteOnTempo `uc  1 e 1 0 ]
+"112
+[v _noteNum noteNum `c  1 e 1 0 ]
+"113
+[v _ritmCont ritmCont `us  1 e 2 0 ]
+"117
+[v _delaysOn delaysOn `[6]us  1 e 12 0 ]
+"118
+[v _seqDeltasOn seqDeltasOn `[6]uc  1 e 6 0 ]
+"120
+[v _delaysOff delaysOff `[6]us  1 e 12 0 ]
+"121
+[v _seqDeltasOff seqDeltasOff `[6]uc  1 e 6 0 ]
+"125
+[v _secCont secCont `ul  1 e 4 0 ]
+"127
+[v _stepContDemo stepContDemo `uc  1 e 1 0 ]
+"128
+[v _stepContPress stepContPress `uc  1 e 1 0 ]
+"132
+[v _dotValue1 dotValue1 `[85]uc  1 e 85 @10139 ]
+"133
+[v _dotValue2 dotValue2 `[85]uc  1 e 85 @10054 ]
+"134
+[v _dotColor1 dotColor1 `[85]uc  1 e 85 @9969 ]
+"135
+[v _dotColor2 dotColor2 `[85]uc  1 e 85 @9884 ]
+"136
+[v _dotTestColor dotTestColor `[3]uc  1 e 3 0 ]
+"138
+[v _groupBuff groupBuff `[18]uc  1 e 18 0 ]
+"140
+[v _groupCant groupCant `uc  1 e 1 0 ]
+"141
+[v _groupSize groupSize `[29]uc  1 e 29 0 ]
+"142
+[v _groupValue groupValue `[29]uc  1 e 29 0 ]
+"143
+[v _groupColor groupColor `[29]uc  1 e 29 0 ]
+"145
+[v _State State `[1]uc  1 e 1 0 ]
+"146
+[v _Mask Mask `[16]uc  1 e 16 0 ]
+"147
+[v _Core Core `[11]uc  1 e 11 0 ]
+"148
+[v _ShouldFL ShouldFL `[3]uc  1 e 3 0 ]
+"149
+[v _ShouldFR ShouldFR `[3]uc  1 e 3 0 ]
+"150
+[v _ShouldDL ShouldDL `[3]uc  1 e 3 0 ]
+"151
+[v _ShouldDR ShouldDR `[3]uc  1 e 3 0 ]
+"152
+[v _ShouldBL ShouldBL `[3]uc  1 e 3 0 ]
+"153
+[v _ShouldBR ShouldBR `[3]uc  1 e 3 0 ]
+"154
+[v _NeckL NeckL `[3]uc  1 e 3 0 ]
+"155
+[v _NeckR NeckR `[3]uc  1 e 3 0 ]
+"156
+[v _NeckBL NeckBL `[4]uc  1 e 4 0 ]
+"157
+[v _NeckBR NeckBR `[4]uc  1 e 4 0 ]
+"158
+[v _NeckBRcolor NeckBRcolor `[4]uc  1 e 4 0 ]
+"159
+[v _AbsUL AbsUL `[4]uc  1 e 4 0 ]
+"160
+[v _AbsUR AbsUR `[4]uc  1 e 4 0 ]
+"161
+[v _AbsML AbsML `[3]uc  1 e 3 0 ]
+"162
+[v _AbsMR AbsMR `[3]uc  1 e 3 0 ]
+"163
+[v _AbsDL AbsDL `[3]uc  1 e 3 0 ]
+"164
+[v _AbsDR AbsDR `[3]uc  1 e 3 0 ]
+"165
+[v _BackUL BackUL `[3]uc  1 e 3 0 ]
+"166
+[v _BackUR BackUR `[3]uc  1 e 3 0 ]
+"167
+[v _BackUM BackUM `[3]uc  1 e 3 0 ]
+"168
+[v _BackD BackD `[3]uc  1 e 3 0 ]
+"169
+[v _LegUL LegUL `[6]uc  1 e 6 0 ]
+"170
+[v _LegUR LegUR `[6]uc  1 e 6 0 ]
+"171
+[v _LegDL LegDL `[6]uc  1 e 6 0 ]
+"172
+[v _LegDR LegDR `[6]uc  1 e 6 0 ]
+"173
+[v _ShoeL ShoeL `[8]uc  1 e 8 0 ]
+"174
+[v _ShoeR ShoeR `[8]uc  1 e 8 0 ]
+"176
+[v _genVal genVal `uc  1 e 1 0 ]
+"178
+[v _pInit pInit `uc  1 e 1 0 ]
+"179
+[v _pCont pCont `uc  1 e 1 0 ]
+"180
+[v _pVals pVals `[10]uc  1 e 10 0 ]
+"181
+[v _pTot pTot `uc  1 e 1 0 ]
+"182
+[v _packTotals packTotals `[2]uc  1 e 2 0 ]
+"183
+[v _sendOrder sendOrder `uc  1 e 1 0 ]
+"184
+[v _execChan execChan `uc  1 e 1 0 ]
+"187
+[v _defaultLum defaultLum `uc  1 e 1 0 ]
+"63 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _eusartRxHead eusartRxHead `VEuc  1 e 1 0 ]
+"64
+[v _eusartRxTail eusartRxTail `VEuc  1 e 1 0 ]
+"65
+[v _eusartRxBuffer eusartRxBuffer `VE[8]uc  1 e 8 0 ]
+[s S489 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"66
+[u S494 . 1 `S489 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxStatusBuffer eusartRxStatusBuffer `VE[8]S494  1 e 8 0 ]
+"67
+[v _eusartRxCount eusartRxCount `VEuc  1 e 1 0 ]
+"68
+[v _eusartRxLastError eusartRxLastError `VES494  1 e 1 0 ]
+"73
+[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"75
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"76
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"77
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"54 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _IOCCF1_InterruptHandler IOCCF1_InterruptHandler `*.37(v  1 e 2 0 ]
+"55
+[v _IOCCF2_InterruptHandler IOCCF2_InterruptHandler `*.37(v  1 e 2 0 ]
+"56
+[v _IOCCF3_InterruptHandler IOCCF3_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S688 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[v _spi2_configuration spi2_configuration `DC[2]S688  1 s 8 spi2_configuration ]
+"57 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr2.c
+[v _TMR2_InterruptHandler TMR2_InterruptHandler `*.37(v  1 e 2 0 ]
+"1664 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"1700
+} 0
+"1405
+[v _secuences secuences `(v  1 e 1 0 ]
+{
+"1440
+} 0
+"499
+[v _sendOrderXs sendOrderXs `(v  1 e 1 0 ]
+{
+"503
+} 0
+"526
+[v _sendOrderDot sendOrderDot `(v  1 e 1 0 ]
+{
+"527
+[v sendOrderDot@i i `s  1 a 2 17 ]
+"574
+} 0
+"512
+[v _sendDotStar sendDotStar `(v  1 e 1 0 ]
+{
+[v sendDotStar@r r `uc  1 a 1 wreg ]
+[v sendDotStar@r r `uc  1 a 1 wreg ]
+[v sendDotStar@g g `uc  1 p 1 5 ]
+[v sendDotStar@b b `uc  1 p 1 6 ]
+[v sendDotStar@r r `uc  1 a 1 8 ]
+"516
+} 0
+"507
+[v _dotStart dotStart `(v  1 e 1 0 ]
+{
+[v dotStart@i i `uc  1 a 1 wreg ]
+[v dotStart@i i `uc  1 a 1 wreg ]
+"510
+} 0
+"98 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[v _SPI2_ExchangeByte SPI2_ExchangeByte `(uc  1 e 1 0 ]
+{
+[v SPI2_ExchangeByte@data data `uc  1 p 1 4 ]
+"104
+} 0
+"441 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _merger merger `(v  1 e 1 0 ]
+{
+"442
+[v merger@accum accum `s  1 a 2 2 ]
+"443
+[v merger@i i `s  1 a 2 0 ]
+"493
+} 0
+"409
+[v _mergeGroup2 mergeGroup2 `(uc  1 e 1 0 ]
+{
+[v mergeGroup2@groupID groupID `uc  1 a 1 wreg ]
+"410
+[v mergeGroup2@i i `s  1 a 2 20 ]
+"411
+[v mergeGroup2@size size `s  1 a 2 17 ]
+"409
+[v mergeGroup2@groupID groupID `uc  1 a 1 wreg ]
+[v mergeGroup2@accum accum `s  1 p 2 8 ]
+[v mergeGroup2@groupID groupID `uc  1 a 1 19 ]
+"419
+} 0
+"397
+[v _mergeGroup1 mergeGroup1 `(uc  1 e 1 0 ]
+{
+[v mergeGroup1@groupID groupID `uc  1 a 1 wreg ]
+"398
+[v mergeGroup1@i i `s  1 a 2 20 ]
+"399
+[v mergeGroup1@size size `s  1 a 2 17 ]
+"397
+[v mergeGroup1@groupID groupID `uc  1 a 1 wreg ]
+[v mergeGroup1@accum accum `s  1 p 2 8 ]
+[v mergeGroup1@groupID groupID `uc  1 a 1 19 ]
+"407
+} 0
+"206
+[v _valfromGroup valfromGroup `(v  1 e 1 0 ]
+{
+[v valfromGroup@groupID groupID `uc  1 a 1 wreg ]
+"207
+[v valfromGroup@i i `uc  1 a 1 7 ]
+"206
+[v valfromGroup@groupID groupID `uc  1 a 1 wreg ]
+[v valfromGroup@groupID groupID `uc  1 a 1 6 ]
+"299
+} 0
+"431
+[v _mergeBridge2 mergeBridge2 `(uc  1 e 1 0 ]
+{
+"432
+[v mergeBridge2@i i `s  1 a 2 12 ]
+"431
+[v mergeBridge2@cantB cantB `s  1 p 2 4 ]
+[v mergeBridge2@accum accum `s  1 p 2 6 ]
+"439
+} 0
+"421
+[v _mergeBridge1 mergeBridge1 `(uc  1 e 1 0 ]
+{
+"422
+[v mergeBridge1@i i `s  1 a 2 12 ]
+"421
+[v mergeBridge1@cantB cantB `s  1 p 2 4 ]
+[v mergeBridge1@accum accum `s  1 p 2 6 ]
+"429
+} 0
+"804
+[v _refriShoulder refriShoulder `(v  1 e 1 0 ]
+{
+"829
+} 0
+"796
+[v _rstRefri rstRefri `(v  1 e 1 0 ]
+{
+[v rstRefri@start start `uc  1 a 1 wreg ]
+[v rstRefri@start start `uc  1 a 1 wreg ]
+[v rstRefri@start start `uc  1 a 1 18 ]
+"802
+} 0
+"784
+[v _refriShoulderTool refriShoulderTool `(v  1 e 1 0 ]
+{
+[v refriShoulderTool@on on `uc  1 a 1 wreg ]
+"785
+[v refriShoulderTool@col col `uc  1 a 1 16 ]
+"784
+[v refriShoulderTool@on on `uc  1 a 1 wreg ]
+[v refriShoulderTool@on on `uc  1 a 1 15 ]
+"794
+} 0
+"1022
+[v _musik musik `(v  1 e 1 0 ]
+{
+"1147
+} 0
+"837
+[v _maskOn maskOn `(v  1 e 1 0 ]
+{
+"850
+} 0
+"859
+[v _maskOff maskOff `(v  1 e 1 0 ]
+{
+"905
+[v maskOff@i_1379 i `uc  1 a 1 13 ]
+"862
+[v maskOff@i i `uc  1 a 1 12 ]
+"917
+[v maskOff@i_1381 i `uc  1 a 1 14 ]
+"925
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 6 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 4 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 7 ]
+"51
+} 0
+"756 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _dragonCrash dragonCrash `(v  1 e 1 0 ]
+{
+"782
+} 0
+"693
+[v _crashOn2 crashOn2 `(v  1 e 1 0 ]
+{
+"703
+} 0
+"713
+[v _crashOff3 crashOff3 `(v  1 e 1 0 ]
+{
+"717
+[v crashOff3@ix ix `uc  1 a 1 5 ]
+"722
+} 0
+"585
+[v _despShadow despShadow `(v  1 e 1 0 ]
+{
+"615
+[v despShadow@i_1341 i `uc  1 a 1 16 ]
+"588
+[v despShadow@i i `uc  1 a 1 15 ]
+"628
+} 0
+"630
+[v _translateShadows translateShadows `(v  1 e 1 0 ]
+{
+"657
+[v translateShadows@sas sas `uc  1 a 1 10 ]
+"631
+[v translateShadows@i i `uc  1 a 1 11 ]
+"661
+} 0
+"992
+[v _demoEfectOn demoEfectOn `(v  1 e 1 0 ]
+{
+"1012
+} 0
+"1154
+[v _demoEfectOff demoEfectOff `(v  1 e 1 0 ]
+{
+"1177
+} 0
+"1200
+[v _SeqPresOn SeqPresOn `(v  1 e 1 0 ]
+{
+"1222
+} 0
+"1179
+[v _seqByZone_On seqByZone_On `(v  1 e 1 0 ]
+{
+[v seqByZone_On@num num `uc  1 a 1 wreg ]
+[v seqByZone_On@num num `uc  1 a 1 wreg ]
+[v seqByZone_On@time time `s  1 p 2 4 ]
+[v seqByZone_On@num num `uc  1 a 1 10 ]
+"1185
+} 0
+"1229
+[v _SeqPresOff SeqPresOff `(v  1 e 1 0 ]
+{
+"1248
+} 0
+"1187
+[v _seqByZone_Off seqByZone_Off `(v  1 e 1 0 ]
+{
+[v seqByZone_Off@num num `uc  1 a 1 wreg ]
+[v seqByZone_Off@num num `uc  1 a 1 wreg ]
+[v seqByZone_Off@time time `s  1 p 2 4 ]
+[v seqByZone_Off@num num `uc  1 a 1 10 ]
+"1193
+} 0
+"1250
+[v _seqApply seqApply `(v  1 e 1 0 ]
+{
+"1284
+} 0
+"1365
+[v _protExec protExec `(v  1 e 1 0 ]
+{
+"1385
+} 0
+"190
+[v _initArrays initArrays `(v  1 e 1 0 ]
+{
+"191
+[v initArrays@i i `uc  1 a 1 14 ]
+"204
+} 0
+"1528
+[v _changeDemoMode changeDemoMode `(v  1 e 1 0 ]
+{
+"1536
+} 0
+"1571
+[v _waitX0ms waitX0ms `(v  1 e 1 0 ]
+{
+[v waitX0ms@X X `uc  1 a 1 wreg ]
+[v waitX0ms@X X `uc  1 a 1 wreg ]
+[v waitX0ms@X X `uc  1 a 1 5 ]
+"1575
+} 0
+"1548
+[v _butt3Pres butt3Pres `(v  1 e 1 0 ]
+{
+[v butt3Pres@state state `uc  1 a 1 wreg ]
+[v butt3Pres@state state `uc  1 a 1 wreg ]
+[v butt3Pres@state state `uc  1 a 1 19 ]
+"1564
+} 0
+"1305
+[v _resetAndOff resetAndOff `(v  1 e 1 0 ]
+{
+[v resetAndOff@light light `uc  1 a 1 wreg ]
+[v resetAndOff@light light `uc  1 a 1 wreg ]
+[v resetAndOff@light light `uc  1 a 1 18 ]
+"1333
+} 0
+"495
+[v _sendOrderX sendOrderX `(v  1 e 1 0 ]
+{
+"497
+} 0
+"578
+[v _rstShadow rstShadow `(v  1 e 1 0 ]
+{
+[v rstShadow@start start `uc  1 a 1 wreg ]
+[v rstShadow@start start `uc  1 a 1 wreg ]
+[v rstShadow@start start `uc  1 a 1 5 ]
+"583
+} 0
+"1293
+[v _rstSeq rstSeq `(v  1 e 1 0 ]
+{
+"1294
+[v rstSeq@i i `uc  1 a 1 5 ]
+"1297
+} 0
+"1195
+[v _rstPressOn rstPressOn `(v  1 e 1 0 ]
+{
+[v rstPressOn@start start `uc  1 a 1 wreg ]
+[v rstPressOn@start start `uc  1 a 1 wreg ]
+[v rstPressOn@start start `uc  1 a 1 5 ]
+"1198
+} 0
+"1224
+[v _rstPressOff rstPressOff `(v  1 e 1 0 ]
+{
+[v rstPressOff@start start `uc  1 a 1 wreg ]
+[v rstPressOff@start start `uc  1 a 1 wreg ]
+[v rstPressOff@start start `uc  1 a 1 5 ]
+"1227
+} 0
+"1014
+[v _rstMusik rstMusik `(v  1 e 1 0 ]
+{
+[v rstMusik@start start `uc  1 a 1 wreg ]
+[v rstMusik@start start `uc  1 a 1 wreg ]
+[v rstMusik@start start `uc  1 a 1 5 ]
+"1020
+} 0
+"831
+[v _rstMaskOn rstMaskOn `(v  1 e 1 0 ]
+{
+[v rstMaskOn@start start `uc  1 a 1 wreg ]
+[v rstMaskOn@start start `uc  1 a 1 wreg ]
+[v rstMaskOn@start start `uc  1 a 1 5 ]
+"835
+} 0
+"852
+[v _rstMaskOff rstMaskOff `(v  1 e 1 0 ]
+{
+[v rstMaskOff@start start `uc  1 a 1 wreg ]
+[v rstMaskOff@start start `uc  1 a 1 wreg ]
+[v rstMaskOff@start start `uc  1 a 1 5 ]
+"857
+} 0
+"742
+[v _rstDragon rstDragon `(v  1 e 1 0 ]
+{
+[v rstDragon@start start `uc  1 a 1 wreg ]
+"743
+[v rstDragon@i i `uc  1 a 1 17 ]
+"742
+[v rstDragon@start start `uc  1 a 1 wreg ]
+[v rstDragon@start start `uc  1 a 1 16 ]
+"754
+} 0
+"724
+[v _dragonCrashTool dragonCrashTool `(v  1 e 1 0 ]
+{
+"740
+} 0
+"987
+[v _rstDemoOn rstDemoOn `(v  1 e 1 0 ]
+{
+[v rstDemoOn@start start `uc  1 a 1 wreg ]
+[v rstDemoOn@start start `uc  1 a 1 wreg ]
+[v rstDemoOn@start start `uc  1 a 1 5 ]
+"990
+} 0
+"1149
+[v _rstDemoOff rstDemoOff `(v  1 e 1 0 ]
+{
+[v rstDemoOff@start start `uc  1 a 1 wreg ]
+[v rstDemoOff@start start `uc  1 a 1 wreg ]
+[v rstDemoOff@start start `uc  1 a 1 5 ]
+"1152
+} 0
+"1299
+[v _allBodyVal allBodyVal `(v  1 e 1 0 ]
+{
+[v allBodyVal@val val `uc  1 a 1 wreg ]
+"1300
+[v allBodyVal@i i `uc  1 a 1 17 ]
+"1299
+[v allBodyVal@val val `uc  1 a 1 wreg ]
+[v allBodyVal@color color `uc  1 p 1 13 ]
+[v allBodyVal@val val `uc  1 a 1 16 ]
+"1303
+} 0
+"1288
+[v _applyColor applyColor `(v  1 e 1 0 ]
+{
+[v applyColor@group group `uc  1 a 1 wreg ]
+[v applyColor@group group `uc  1 a 1 wreg ]
+[v applyColor@color color `uc  1 p 1 9 ]
+[v applyColor@intensity intensity `uc  1 p 1 10 ]
+[v applyColor@group group `uc  1 a 1 12 ]
+"1291
+} 0
+"301
+[v _val2group val2group `(v  1 e 1 0 ]
+{
+[v val2group@groupID groupID `uc  1 a 1 wreg ]
+"302
+[v val2group@i i `uc  1 a 1 8 ]
+"301
+[v val2group@groupID groupID `uc  1 a 1 wreg ]
+[v val2group@val val `uc  1 p 1 4 ]
+[v val2group@groupID groupID `uc  1 a 1 7 ]
+"395
+} 0
+"1567
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@val val `uc  1 a 1 wreg ]
+[v putch@val val `uc  1 a 1 wreg ]
+[v putch@val val `uc  1 a 1 5 ]
+"1569
+} 0
+"162 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 4 ]
+"169
+} 0
+"50 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"81
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"64 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"132
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"134
+} 0
+"64 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"171
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"173
+} 0
+"63 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"87 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"101
+} 0
+"59 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"143
+} 0
+"242
+[v _IOCCF3_SetInterruptHandler IOCCF3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCCF3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"244
+} 0
+"212
+[v _IOCCF2_SetInterruptHandler IOCCF2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCCF2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"214
+} 0
+"182
+[v _IOCCF1_SetInterruptHandler IOCCF1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCCF1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"184
+} 0
+"63 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"83 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"234
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"236
+} 0
+"225
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"227
+} 0
+"221
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"223
+} 0
+"229
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"231
+} 0
+"78 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/spi2.c
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+{
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 wreg ]
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 wreg ]
+"80
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 7 ]
+"91
+} 0
+"52 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"82
+} 0
+"173 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"195
+} 0
+"1470 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _pRC1_ISR pRC1_ISR `(v  1 e 1 0 ]
+{
+"1471
+[v pRC1_ISR@cha cha `uc  1 a 1 3 ]
+"1505
+} 0
+"796
+[v i1_rstRefri rstRefri `(v  1 e 1 0 ]
+{
+[v i1rstRefri@start start `uc  1 a 1 wreg ]
+[v i1rstRefri@start start `uc  1 a 1 wreg ]
+[v i1rstRefri@start start `uc  1 a 1 0 ]
+"802
+} 0
+"784
+[v i1_refriShoulderTool refriShoulderTool `(v  1 e 1 0 ]
+{
+[v i1refriShoulderTool@on on `uc  1 a 1 wreg ]
+"785
+[v i1refriShoulderTool@col col `uc  1 a 1 12 ]
+"784
+[v i1refriShoulderTool@on on `uc  1 a 1 wreg ]
+[v i1refriShoulderTool@on on `uc  1 a 1 11 ]
+"794
+} 0
+"1387
+[v _protRCV protRCV `(v  1 e 1 0 ]
+{
+[v protRCV@rcv rcv `uc  1 a 1 wreg ]
+[v protRCV@rcv rcv `uc  1 a 1 wreg ]
+[v protRCV@rcv rcv `uc  1 a 1 1 ]
+"1403
+} 0
+"119 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"129
+} 0
+"136
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"139
+} 0
+"1443 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _pTMR2_ISR pTMR2_ISR `(v  1 e 1 0 ]
+{
+"1449
+} 0
+"157 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"168
+} 0
+"175
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"178
+} 0
+"1451 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _pTMR1_ISR pTMR1_ISR `(v  1 e 1 0 ]
+{
+"1468
+} 0
+"120 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"145 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"162
+} 0
+"227
+[v _IOCCF3_ISR IOCCF3_ISR `(v  1 e 1 0 ]
+{
+"237
+} 0
+"249
+[v _IOCCF3_DefaultInterruptHandler IOCCF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"252
+} 0
+"1514 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _IOC_AN1_ISR IOC_AN1_ISR `(v  1 e 1 0 ]
+{
+"1519
+} 0
+"1544
+[v _butt2Pres butt2Pres `(v  1 e 1 0 ]
+{
+"1546
+} 0
+"1336
+[v _execMask_Sword execMask_Sword `(v  1 e 1 0 ]
+{
+"1346
+} 0
+"197 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _IOCCF2_ISR IOCCF2_ISR `(v  1 e 1 0 ]
+{
+"207
+} 0
+"219
+[v _IOCCF2_DefaultInterruptHandler IOCCF2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"222
+} 0
+"1521 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _IOC_AN2_ISR IOC_AN2_ISR `(v  1 e 1 0 ]
+{
+"1526
+} 0
+"1528
+[v i1_changeDemoMode changeDemoMode `(v  1 e 1 0 ]
+{
+"1536
+} 0
+"1548
+[v i1_butt3Pres butt3Pres `(v  1 e 1 0 ]
+{
+[v i1butt3Pres@state state `uc  1 a 1 wreg ]
+[v i1butt3Pres@state state `uc  1 a 1 wreg ]
+[v i1butt3Pres@state state `uc  1 a 1 1 ]
+"1564
+} 0
+"1305
+[v i1_resetAndOff resetAndOff `(v  1 e 1 0 ]
+{
+[v i1resetAndOff@light light `uc  1 a 1 wreg ]
+[v i1resetAndOff@light light `uc  1 a 1 wreg ]
+[v i1resetAndOff@light light `uc  1 a 1 0 ]
+"1333
+} 0
+"495
+[v i1_sendOrderX sendOrderX `(v  1 e 1 0 ]
+{
+"497
+} 0
+"578
+[v i1_rstShadow rstShadow `(v  1 e 1 0 ]
+{
+[v i1rstShadow@start start `uc  1 a 1 wreg ]
+[v i1rstShadow@start start `uc  1 a 1 wreg ]
+[v i1rstShadow@start start `uc  1 a 1 1 ]
+"583
+} 0
+"1293
+[v i1_rstSeq rstSeq `(v  1 e 1 0 ]
+{
+"1294
+[v i1rstSeq@i i `uc  1 a 1 1 ]
+"1297
+} 0
+"1014
+[v i1_rstMusik rstMusik `(v  1 e 1 0 ]
+{
+[v i1rstMusik@start start `uc  1 a 1 wreg ]
+[v i1rstMusik@start start `uc  1 a 1 wreg ]
+[v i1rstMusik@start start `uc  1 a 1 1 ]
+"1020
+} 0
+"831
+[v i1_rstMaskOn rstMaskOn `(v  1 e 1 0 ]
+{
+[v i1rstMaskOn@start start `uc  1 a 1 wreg ]
+[v i1rstMaskOn@start start `uc  1 a 1 wreg ]
+[v i1rstMaskOn@start start `uc  1 a 1 1 ]
+"835
+} 0
+"852
+[v i1_rstMaskOff rstMaskOff `(v  1 e 1 0 ]
+{
+[v i1rstMaskOff@start start `uc  1 a 1 wreg ]
+[v i1rstMaskOff@start start `uc  1 a 1 wreg ]
+[v i1rstMaskOff@start start `uc  1 a 1 1 ]
+"857
+} 0
+"742
+[v i1_rstDragon rstDragon `(v  1 e 1 0 ]
+{
+[v i1rstDragon@start start `uc  1 a 1 wreg ]
+"743
+[v i1rstDragon@i i `uc  1 a 1 13 ]
+"742
+[v i1rstDragon@start start `uc  1 a 1 wreg ]
+[v i1rstDragon@start start `uc  1 a 1 12 ]
+"754
+} 0
+"724
+[v i1_dragonCrashTool dragonCrashTool `(v  1 e 1 0 ]
+{
+"740
+} 0
+"1149
+[v i1_rstDemoOff rstDemoOff `(v  1 e 1 0 ]
+{
+[v i1rstDemoOff@start start `uc  1 a 1 wreg ]
+[v i1rstDemoOff@start start `uc  1 a 1 wreg ]
+[v i1rstDemoOff@start start `uc  1 a 1 1 ]
+"1152
+} 0
+"1299
+[v i1_allBodyVal allBodyVal `(v  1 e 1 0 ]
+{
+[v i1allBodyVal@val val `uc  1 a 1 wreg ]
+"1300
+[v i1allBodyVal@i i `uc  1 a 1 13 ]
+"1299
+[v i1allBodyVal@val val `uc  1 a 1 wreg ]
+[v i1allBodyVal@color color `uc  1 p 1 9 ]
+[v i1allBodyVal@val val `uc  1 a 1 12 ]
+"1303
+} 0
+"1288
+[v i1_applyColor applyColor `(v  1 e 1 0 ]
+{
+[v i1applyColor@group group `uc  1 a 1 wreg ]
+[v i1applyColor@group group `uc  1 a 1 wreg ]
+[v i1applyColor@color color `uc  1 p 1 5 ]
+[v i1applyColor@intensity intensity `uc  1 p 1 6 ]
+[v i1applyColor@group group `uc  1 a 1 8 ]
+"1291
+} 0
+"301
+[v i1_val2group val2group `(v  1 e 1 0 ]
+{
+[v i1val2group@groupID groupID `uc  1 a 1 wreg ]
+"302
+[v i1val2group@i i `uc  1 a 1 4 ]
+"301
+[v i1val2group@groupID groupID `uc  1 a 1 wreg ]
+[v i1val2group@val val `uc  1 p 1 0 ]
+[v i1val2group@groupID groupID `uc  1 a 1 3 ]
+"395
+} 0
+"167 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/pin_manager.c
+[v _IOCCF1_ISR IOCCF1_ISR `(v  1 e 1 0 ]
+{
+"177
+} 0
+"189
+[v _IOCCF1_DefaultInterruptHandler IOCCF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"192
+} 0
+"1507 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _IOC_DI1_ISR IOC_DI1_ISR `(v  1 e 1 0 ]
+{
+"1512
+} 0
+"1571
+[v i1_waitX0ms waitX0ms `(v  1 e 1 0 ]
+{
+[v i1waitX0ms@X X `uc  1 a 1 wreg ]
+[v i1waitX0ms@X X `uc  1 a 1 wreg ]
+[v i1waitX0ms@X X `uc  1 a 1 1 ]
+"1575
+} 0
+"1539
+[v _butt1Pres butt1Pres `(v  1 e 1 0 ]
+{
+"1542
+} 0
+"1567
+[v i1_putch putch `(v  1 e 1 0 ]
+{
+[v i1putch@val val `uc  1 a 1 wreg ]
+[v i1putch@val val `uc  1 a 1 wreg ]
+[v i1putch@val val `uc  1 a 1 1 ]
+"1569
+} 0
+"162 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 0 ]
+"169
+} 0
+"1348 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\main.c
+[v _initStop initStop `(v  1 e 1 0 ]
+{
+"1363
+} 0
+"1195
+[v i1_rstPressOn rstPressOn `(v  1 e 1 0 ]
+{
+[v i1rstPressOn@start start `uc  1 a 1 wreg ]
+[v i1rstPressOn@start start `uc  1 a 1 wreg ]
+[v i1rstPressOn@start start `uc  1 a 1 1 ]
+"1198
+} 0
+"1224
+[v i1_rstPressOff rstPressOff `(v  1 e 1 0 ]
+{
+[v i1rstPressOff@start start `uc  1 a 1 wreg ]
+[v i1rstPressOff@start start `uc  1 a 1 wreg ]
+[v i1rstPressOff@start start `uc  1 a 1 1 ]
+"1227
+} 0
+"987
+[v i1_rstDemoOn rstDemoOn `(v  1 e 1 0 ]
+{
+[v i1rstDemoOn@start start `uc  1 a 1 wreg ]
+[v i1rstDemoOn@start start `uc  1 a 1 wreg ]
+[v i1rstDemoOn@start start `uc  1 a 1 1 ]
+"990
+} 0
+"209 L:\5_WorkSpaces\MPLABXProjects\Genji_PCB1.2.X\mcc_generated_files/eusart.c
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"215
+} 0
+"207
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"217
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"219
+} 0
+"197
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+{
+"205
+} 0
